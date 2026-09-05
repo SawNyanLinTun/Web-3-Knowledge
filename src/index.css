@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+:root {
+  --art-bg: #FFF9F2;
+  --art-ink: #1A1A1A;
+  --art-black: #000000;
+  --art-coral: #FF6B6B;
+  --art-teal: #4ECDC4;
+  --art-cyan: #55E6C1;
+  --art-yellow: #FFE66D;
+  --art-orange: #FF9F43;
+  --art-purple: #6C5CE7;
+  --art-lavender: #A29BFE;
+  --art-white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF9F2;
+  color: #1A1A1A;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  user-select: none;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Baloo 2', cursive, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Artistic Flair Dot Matrix Pattern */
+.artistic-dot-bg {
+  background-image: radial-gradient(#1A1A1A 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+/* Neo-Brutalist Hard Offset Shadows */
+.artistic-shadow-xs {
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+
+.artistic-shadow-sm {
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.artistic-shadow-md {
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+.artistic-shadow-lg {
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.artistic-shadow-xl {
+  box-shadow: 12px 12px 0px 0px #1A1A1A;
+}
+
+.artistic-shadow-white {
+  box-shadow: 4px 4px 0px 0px #FFFFFF;
+}
+
+/* Tactile Artistic Button & Card Interactions */
+.artistic-btn {
+  box-shadow: 4px 4px 0px 0px #000000;
+  transition: transform 0.08s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.08s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.artistic-btn:hover:not(:disabled) {
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0px 0px #000000;
+}
+
+.artistic-btn:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+
+.artistic-card {
+  border: 4px solid #000000;
+  border-radius: 28px;
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+.artistic-pill {
+  border: 2px solid #000000;
+  box-shadow: 3px 3px 0px 0px #000000;
+}
+
+/* Custom styled ranges with thick borders */
+input[type="range"] {
+  accent-color: #FF6B6B;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  border: 3px solid #000000;
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+

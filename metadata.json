@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix The Block Factory",
+  "description": "An interactive, gamified blockchain and cryptography visualization for middle school students with colorful animations, interactive sliders, and hands-on lab challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
